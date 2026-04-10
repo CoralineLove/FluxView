@@ -1,0 +1,26 @@
+{
+  "serviceName": "FluxView",
+  "component": "Backend API",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "status": "UP",
+  "version": "1.2.3",
+  "environment": "production",
+  "details": {
+    "cpuLoad": 0.65,
+    "memoryUsage": 0.78,
+    "diskSpaceAvailable": "250GB",
+    "activeConnections": 125,
+    "responseTime": "0.025s"
+  },
+  "dependencies": {
+    "database": {
+      "status": "UP",
+      "responseTime": "0.01s"
+    },
+    "cache": {
+      "status": "UP",
+      "responseTime": "0.005s"
+    }
+  },
+  "alerts": [] // Could contain alert messages if any issues are detected
+}
